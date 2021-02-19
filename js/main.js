@@ -99,7 +99,7 @@ function updateOrangeHours() {
           trigger: '#trigger5',
           start: 'center center',
           end: 'center center',
-          onEnter: () => {addBluemin(5),addOrangehour(4.5)},
-          onEnterBack: () => {subBluemin(5),subOrangehour(4.5)},
+          onEnter: () => {addBluemin(5),addOrangehour(4), addOrangemin(30)},
+          onEnterBack: () => {subBluemin(5),subOrangehour(4), subOrangemin(30)},
           scrub: 0,
   });
