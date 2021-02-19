@@ -72,8 +72,8 @@ function updateOrangeHours() {
           trigger: '#trigger2',
           start: 'center center',
           end: 'center center',
-          onEnter: () => {addBluehour(3),addOrangehour(2)},
-          onEnterBack: () => {subBluehour(3),subOrangehour(2)},
+          onEnter: () => {addBluehour(3),addOrangehour(9)},
+          onEnterBack: () => {subBluehour(3),subOrangehour(9)},
           scrub: 0,
   });
 
